@@ -1,10 +1,10 @@
 {
   "format": 1,
-  "version": "0.3.51",
+  "version": "0.3.54",
   "date": "2026-11-09",
-  "file": "lumanoideos-0.3.51.update",
-  "size": 2672592,
-  "sha256": "d9db11396358b7c2d5fee5f152778473153bc41ebf7d5eef757b69134646c8f4",
+  "file": "lumanoideos-0.3.54.update",
+  "size": 2699072,
+  "sha256": "7dd67c89fe2cdad79d55374ad0d115585d4384c11f897eabe59a28bd77ae7789",
   "target": "esp32s3-n16r8",
-  "notes": "- One Settings page: network, Home Assistant, MQTT, time, updates, security, device, and about in one place, with a bar that jumps to each section\n- Update a preset with what the panel shows now: load it, change the look, and press Update\n- The Dashboard shows when a loaded preset was changed, with Load to go back and Update to keep it\n- After loading a preset, the Home Assistant and Message cards show that preset's values"
+  "notes": "- Library: presets and playlists on one page, each with Import and Export, Make a copy, and what a preset shows\n- Back up everything in one file, screens included, and restore it on this panel or another; the update notice offers a backup before Install\n- An import lists what the file holds, so you choose what to take and whether to replace what the panel has\n- Power in kW: a value in W or Wh can show in kW, or in kW from 10000 W on\n- A legible euro sign, and a Home Assistant value with its name above it stands in the middle of the panel"
 }
