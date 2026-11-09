@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "version": "0.3.49",
+  "date": "2026-11-09",
+  "file": "lumanoideos-0.3.49.update",
+  "size": 2671824,
+  "sha256": "4052f6e4d704de955cef8cca5e021062b4f77951c433bbdb749522cec95d0d02",
+  "target": "esp32s3-n16r8",
+  "notes": "- Updates from the Shell: a notice with Install on the Dashboard and System page, checked in the browser\n- A progress bar on the panel during an update\n- A new firmware that does not start properly is undone by itself\n- Releases are published to their own site"
+}
