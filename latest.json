@@ -1,10 +1,10 @@
 {
   "format": 1,
-  "version": "0.3.54",
-  "date": "2026-11-09",
-  "file": "lumanoideos-0.3.54.update",
-  "size": 2699072,
-  "sha256": "7dd67c89fe2cdad79d55374ad0d115585d4384c11f897eabe59a28bd77ae7789",
+  "version": "0.3.57",
+  "date": "2026-11-10",
+  "file": "lumanoideos-0.3.57.update",
+  "size": 2710032,
+  "sha256": "fe57fbbc8b83db417a94cc5ad07886b0a447f1785d39ce318f69e8517d938106",
   "target": "esp32s3-n16r8",
-  "notes": "- Library: presets and playlists on one page, each with Import and Export, Make a copy, and what a preset shows\n- Back up everything in one file, screens included, and restore it on this panel or another; the update notice offers a backup before Install\n- An import lists what the file holds, so you choose what to take and whether to replace what the panel has\n- Power in kW: a value in W or Wh can show in kW, or in kW from 10000 W on\n- A legible euro sign, and a Home Assistant value with its name above it stands in the middle of the panel"
+  "notes": "- Chase effects: four new effects where two small 8-bit figures walk across the panel, a runner chased by a dino, a cat chased by a dog, a knight chased by a dragon, and a runner and dino that swap every lap. Effect speed sets how fast they walk.\n- Digital clock faces (0.3.56): hours above minutes, the same with the border filling in a minute, HH:MM side by side with a blinking colon, and HH:MM with the date running below it.\n- An analog clock (0.3.55): a round dial with hour marks, straight hands, and a seconds dot on the ring. Look colours the clocks like other content.\n- An import in the Library no longer restarts the panel or reports Management API is unreachable while the preset was stored."
 }
