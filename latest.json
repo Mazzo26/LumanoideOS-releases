@@ -1,10 +1,10 @@
 {
   "format": 1,
-  "version": "0.3.57",
-  "date": "2026-11-10",
-  "file": "lumanoideos-0.3.57.update",
-  "size": 2710032,
-  "sha256": "fe57fbbc8b83db417a94cc5ad07886b0a447f1785d39ce318f69e8517d938106",
+  "version": "0.3.62",
+  "date": "2026-11-11",
+  "file": "lumanoideos-0.3.62.update",
+  "size": 2733344,
+  "sha256": "2a94bb1bf97c9c2c96c302784a9526022075178d76f62ce5135a2a55ea4373ba",
   "target": "esp32s3-n16r8",
-  "notes": "- Chase effects: four new effects where two small 8-bit figures walk across the panel, a runner chased by a dino, a cat chased by a dog, a knight chased by a dragon, and a runner and dino that swap every lap. Effect speed sets how fast they walk.\n- Digital clock faces (0.3.56): hours above minutes, the same with the border filling in a minute, HH:MM side by side with a blinking colon, and HH:MM with the date running below it.\n- An analog clock (0.3.55): a round dial with hour marks, straight hands, and a seconds dot on the ring. Look colours the clocks like other content.\n- An import in the Library no longer restarts the panel or reports Management API is unreachable while the preset was stored."
+  "notes": "- Notifications from Home Assistant over everything on the panel through MQTT (topic lumanoide/notify): a doorbell with rings or a small bell above running text, a house with 'Welkom <name>' in a colour of your own, and messages with one of 23 animated icons (washer, dryer, 3D printer, three cars, charging, battery, weather, moon, water, calendar, cake, tree, firework and more), an optional progress bar, and urgent alarms that go before everything.\n- Settings show at once: a text colour, palette, or scroll speed chosen in Look appears on the panel right away, and the Dashboard stays usable while the screens are stored.\n- The panel no longer glitches in random colours when a setting changes or while content plays, and screen writes and the preset list are much faster."
 }
