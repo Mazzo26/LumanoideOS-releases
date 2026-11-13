@@ -1,10 +1,10 @@
 {
   "format": 1,
-  "version": "0.3.62",
-  "date": "2026-11-11",
-  "file": "lumanoideos-0.3.62.update",
-  "size": 2733344,
-  "sha256": "2a94bb1bf97c9c2c96c302784a9526022075178d76f62ce5135a2a55ea4373ba",
+  "version": "1.0.0",
+  "date": "2026-11-13",
+  "file": "lumanoideos-1.0.0.update",
+  "size": 2936544,
+  "sha256": "0eb9ae94a82c29014fa3f4e898ccb0dcbe7a5d5b79a6e886050a0637cd15819c",
   "target": "esp32s3-n16r8",
-  "notes": "- Notifications from Home Assistant over everything on the panel through MQTT (topic lumanoide/notify): a doorbell with rings or a small bell above running text, a house with 'Welkom <name>' in a colour of your own, and messages with one of 23 animated icons (washer, dryer, 3D printer, three cars, charging, battery, weather, moon, water, calendar, cake, tree, firework and more), an optional progress bar, and urgent alarms that go before everything.\n- Settings show at once: a text colour, palette, or scroll speed chosen in Look appears on the panel right away, and the Dashboard stays usable while the screens are stored.\n- The panel no longer glitches in random colours when a setting changes or while content plays, and screen writes and the preset list are much faster."
+  "notes": "- LumanoideOS 1.0.0, the first complete release, also as one installable package. `tools/make_package.py` builds the Shell and the release firmware and writes `lumanoideos-<version>-esp32s3-n16r8.zip`\n- Setting up a new panel from a phone. A panel without Wi-Fi opens its setup network `LumanoideOS-XXXXXX` at once and keeps it on until the Wi-Fi is set; a phone or computer that joins it shows the setup page within seconds, as a hotel's sign-in page (on a Windows PC, open a browser). **Set up LumanoideOS** is a small page of its own from the firmware (8.5 KB, not the Shell, which took the internal memory down to 7.5 KB when an iPhone opened it twice at once)\n- Recovery at the panel. Press **RESET 3 times** (about once a second, while the panel starts) to release the claim when the Device API Key is lost\n- The demo is the boot animation. While no other content is chosen, as on a new install, the panel plays the chosen boot animation (Spin when it is Off) again and again with a second between, instead of the scrolling test text\n- Factory Reset and Soft Reset work again, and a Factory Reset restarts the panel. Both wrote an empty content document that the panel refuses (no font) and answered 500 after clearing the rest; they now write the panel's default content. A Factory Reset kept the Wi-Fi connected until a restart by hand; the panel now restarts by itself and opens its setup network"
 }
